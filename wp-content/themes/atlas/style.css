@@ -391,3 +391,14 @@ body {
 
 
 /* Tables Section End */
+/* Footer Start*/
+.footer-caption a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-caption a:hover {
+    color: #ddd;
+}
+
+/* Footer End*/
