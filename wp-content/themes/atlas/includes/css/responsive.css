@@ -1,0 +1,120 @@
+@media only screen and (max-width: 576px) {
+    .top-banner {
+        height: 150vw;
+        min-height: 600px;
+    }
+
+    .top-banner .banner-caption .left-sec {
+        margin-left: 4%;
+    }
+
+    .top-banner .banner-caption .left-sec .reg-btn {
+        margin-top: 4vw;
+    }
+
+    .top-banner .banner-caption .right-sec {
+        margin-top: 48%;
+        width: 100%;
+        margin-right: auto;
+        text-align: end;
+        margin-left: 0;
+        padding-right: 20px;
+    }
+
+    .top-banner .banner-caption .caption {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .top-banner .banner-caption .small-text {
+        font-size: 17px;
+    }
+
+    .sub-heading,
+    .heading {
+        margin-bottom: 0;
+    }
+
+    .sub-heading {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    /* third sec */
+    .third-sec {
+        background-image: url('../img/3sec-mobile.jpg') !important;
+        min-height: 150vw;
+    }
+
+    .third-sec .left-sec {
+        margin-top: 5%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .third-sec .left-sec .content {
+        text-align: left;
+        margin: 5%;
+        width: 100%;
+    }
+
+    .third-sec .content h3 {
+        font-size: 25px;
+    }
+
+    .third-sec .content p {
+        font-size: 15px;
+    }
+
+    .third-sec .right-sec {
+        text-align: end;
+        margin-left: 0;
+        margin-top: 0;
+        display: none;
+    }
+
+    .third-sec .right-sec .content {
+        margin: 10px;
+        margin-left: 50%;
+    }
+
+    .cards .container {
+        padding-bottom: 20px;
+    }
+
+    .cards img {
+        padding: unset;
+    }
+
+    .teacher-sec .owl-carousel .item img {
+        width: 200px;
+    }
+
+    /* table sec */
+    .tables-section h3.eng {
+        font-size: 3.5vw;
+    }
+
+    .tables-section h2.eng {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .cards img {
+        max-width: 45vw;
+    }
+
+    .third-sec {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 576px) {
+    .third-sec {
+        background-size: cover;
+    }
+}
