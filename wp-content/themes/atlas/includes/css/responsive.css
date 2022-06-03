@@ -86,7 +86,7 @@
     }
 
     .cards img {
-        padding: unset;
+        padding: unset !important;
     }
 
     .teacher-sec .owl-carousel .item img {
@@ -116,5 +116,11 @@
 @media only screen and (max-width: 950px) and (min-width: 576px) {
     .third-sec {
         background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .banner-caption .left-sec {
+        margin-top: 15%;
     }
 }

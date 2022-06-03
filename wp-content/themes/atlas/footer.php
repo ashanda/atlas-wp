@@ -13,7 +13,7 @@
 <div class="bottom-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/bottom.jpg');">
         <div class="footer-caption text-center">
             <h4>විමසීම්</h4>
-            <h4 class="eng"><i class="fa fa-phone"></i> <i class="fa fa-whatsapp"></i> <?php the_field('phone_number','option'); ?></h4>
+            <h4 class="eng"><a target="_blank" href=""><i class="fa fa-phone"></i></a> <a target="_blank" href=""><i class="fa fa-whatsapp"></i></a> <a href="tel:<?php the_field('phone_number','option'); ?>"><?php the_field('phone_number','option'); ?></a></h4>
         </div>
 
     </div>
