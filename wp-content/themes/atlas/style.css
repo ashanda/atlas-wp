@@ -402,3 +402,9 @@ body {
 }
 
 /* Footer End*/
+
+/* new styles */
+.sign-btns {
+    display: none;
+}
+
