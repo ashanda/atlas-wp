@@ -82,7 +82,7 @@ get_header();  ?>
             </div>
         </div>
     </div>
-    <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
+    <!-- <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
         <div class="header text-center">
             <h3><?php the_field('section_04_title'); ?></h3>
         </div>
@@ -97,30 +97,84 @@ get_header();  ?>
                         <img src="<?php echo $image['url']; ?>" alt="">
                         <h3><?php the_sub_field('name_'); ?></h3>
                         <p><?php the_sub_field('description'); ?></p>
-                        <!-- model button-->
-                        <a class="button" href="#popup1">See More</a>
-                        <!-- model button -->
+                       
+    <a class="button" href="#popup1">See More</a>
+   
+    </div>
+
+<?php endwhile; ?>
+
+<?php endif; ?>
+</div>
+</div>
+<?php if (have_rows('teachers_slider')) : ?>
+    <?php while (have_rows('teachers_slider')) : the_row();
+        $image = get_sub_field('teacher_image');
+    ?>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <img src="<?php echo $image['url']; ?>" alt="">
+                <a class="close" href="#teacher-sec">&times;</a>
+                <div class="content text-center mt-2">
+                    <h3><?php the_sub_field('name_'); ?></h3>
+                    <p><?php the_sub_field('description'); ?></p>
+                </div>
+            </div>
+        </div>
+    <?php endwhile; ?>
+<?php endif; ?> -->
+
+
+    <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
+        <div class="header text-center">
+            <h3><?php the_field('section_04_title'); ?></h3>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="teacher text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher1.png" alt="">
+                        <h3>චාමින්ද සර්</h3>
+                        <p>වසර 25 ක් පුරා ශිෂ්‍යත්ව සමතුන්..</p>
+                        <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            See More
+                        </button>
                     </div>
 
-                <?php endwhile; ?>
-
-            <?php endif; ?>
-        </div>
-    </div>
-    <?php if (have_rows('teachers_slider')) : ?>
-        <?php while (have_rows('teachers_slider')) : the_row();
-            $image = get_sub_field('teacher_image');
-        ?>
-            <div id="popup1" class="overlay">
-                <div class="popup">
-                    <img src="<?php echo $image['url']; ?>" alt="">
-                    <a class="close" href="#teacher-sec">&times;</a>
-                    <div class="content text-center mt-2">
-                        <h3><?php the_sub_field('name_'); ?></h3>
-                        <p><?php the_sub_field('description'); ?></p>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content text-center">
+                                <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher1.png" alt="">
+                                <h3>චාමින්ද සර්</h3>
+                                <p>වසර 25 ක් පුරා ශිෂ්‍යත්ව සමතුන් බිහි කල පෙරළිකාර ඉගැන්වීම් රටාවක් ඇති ශ්‍රී ලංකාවේ පළමු පෙලේ ශිෂ්‍යත්ව ගුරුවරයා </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="teacher text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher2.png" alt="">
+                        <h3>නිලන්ති මිස්</h3>
+                        <p>ශ්‍රී ලංකාවේ ශිෂ්‍යත්ව විභාග කඩයිම...</p>
+                        <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            See More
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content text-center">
+                                <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher2.png" alt="">
+                                <h3>නිලන්ති මිස්</h3>
+                                <p>ශ්‍රී ලංකාවේ ශිෂ්‍යත්ව විභාග කඩයිම ජයගන්න වසර 30 ක් පුරා දු දරුවන්ට දැනුම බෙදා දුන් කාගේත් ආදරය දිනු ශිෂ්‍යත්ව ගුරුවරිය </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        <?php endwhile; ?>
-    <?php endif; ?>
+        </div>
+    </div>
+
     <?php get_footer(); ?>

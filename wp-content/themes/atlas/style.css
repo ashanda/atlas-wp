@@ -529,3 +529,71 @@ body {
 .popup p:last-child {
     margin: 0;
 }
+
+/* test */
+.teacher {
+    padding: 10% 20%;
+}
+
+.teacher img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.teacher h3,
+.teacher p {
+    font-weight: bold;
+}
+
+.teacher h3 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.teacher p {
+    font-size: 20px;
+}
+
+.teacher .btn-primary {
+    background-color: #d66a2c;
+    border-color: #d66a2c;
+}
+
+.teacher .btn-primary:hover {
+    background-color: #d66a2c;
+    border-color: #d66a2c;
+
+}
+
+.modal-dialog {
+    top: 10%;
+}
+
+.modal-content {
+    padding: 50px;
+}
+
+.modal-content h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.modal-content p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar .nav-item .nav-link {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+    .third-sec .content p {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 576px){
+    .third-sec .content p {
+        font-size: 20px;
+    }
+}
