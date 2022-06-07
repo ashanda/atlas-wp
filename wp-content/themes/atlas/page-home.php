@@ -82,7 +82,7 @@ get_header();  ?>
             </div>
         </div>
     </div>
-    <div class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
+    <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
         <div class="header text-center">
             <h3><?php the_field('section_04_title'); ?></h3>
         </div>
@@ -97,12 +97,30 @@ get_header();  ?>
                         <img src="<?php echo $image['url']; ?>" alt="">
                         <h3><?php the_sub_field('name_'); ?></h3>
                         <p><?php the_sub_field('description'); ?></p>
+                        <!-- model button-->
+                        <a class="button" href="#popup1">See More</a>
+                        <!-- model button -->
                     </div>
+
                 <?php endwhile; ?>
 
             <?php endif; ?>
-
         </div>
     </div>
-
+    <?php if (have_rows('teachers_slider')) : ?>
+        <?php while (have_rows('teachers_slider')) : the_row();
+            $image = get_sub_field('teacher_image');
+        ?>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <img src="<?php echo $image['url']; ?>" alt="">
+                    <a class="close" href="#teacher-sec">&times;</a>
+                    <div class="content text-center mt-2">
+                        <h3><?php the_sub_field('name_'); ?></h3>
+                        <p><?php the_sub_field('description'); ?></p>
+                    </div>
+                </div>
+            </div>
+        <?php endwhile; ?>
+    <?php endif; ?>
     <?php get_footer(); ?>
