@@ -97,18 +97,6 @@ get_header();  ?>
                         <img src="<?php echo $image['url']; ?>" alt="">
                         <h3><?php the_sub_field('name_'); ?></h3>
                         <p><?php the_sub_field('description'); ?></p>
-                        <a class="button" href="#popup1">Click Me</a>
-
-                        <div id="popup1" class="overlay">
-                            <div class="popup">
-                                <h2>Info box</h2>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <p>This is done totally without JavaScript. Just HTML and CSS.</p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 <?php endwhile; ?>
 
