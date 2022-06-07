@@ -153,6 +153,7 @@ get_header();  ?>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-sm-6 col-xs-12">
                     <div class="teacher text-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher2.png" alt="">
