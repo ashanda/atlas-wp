@@ -6,6 +6,7 @@
 
     .top-banner .banner-caption .left-sec {
         margin-left: 4%;
+        margin-top: 3%;
     }
 
     .top-banner .banner-caption .left-sec .reg-btn {
@@ -36,17 +37,30 @@
     }
 
     .sub-heading {
-        font-size: 30px;
+        font-size: 32px !important;
     }
 
     .heading {
         font-size: 40px;
     }
 
+    .left-sec .reg-btn {
+        background-color: #0009 !important;
+    }
+
     /* third sec */
     .third-sec {
         background-image: url('../img/3sec-mobile.jpg') !important;
-        min-height: 150vw;
+        min-height: 150vw !important;
+    }
+
+    .third-sec .third-heading {
+        padding-top: 10%;
+        width: 75%;
+    }
+
+    .third-sec .heading {
+        font-size: 40px !important;
     }
 
     .third-sec .left-sec {
@@ -67,12 +81,17 @@
 
     .third-sec .content p {
         font-size: 15px;
+        width: 60%;
     }
 
     .third-sec .right-sec {
         text-align: end;
         margin-left: 0;
         margin-top: 0;
+    }
+
+    .third-sec .right-sec,
+    .third-sec .left-sec {
         display: none;
     }
 
@@ -89,8 +108,32 @@
         padding: unset !important;
     }
 
+    .teacher-sec {
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        padding-top: 0 !important;
+
+    }
+
+    .teacher {
+        padding: 5% !important;
+    }
+
+    .teacher h3 {
+        font-size: 25px !important;
+    }
+
     .teacher-sec .owl-carousel .item img {
         width: 200px;
+    }
+
+    .teacher-sec .header h3 {
+        font-size: 30px !important;
+
+    }
+
+    .sm-text-left {
+        text-align: left !important;
     }
 
     /* table sec */
@@ -104,6 +147,11 @@
 
     .banner-caption .right-sec {
         display: none;
+    }
+
+    .bottom-section {
+        min-height: 150px !important;
+        padding-top: 5vw !important;
     }
 }
 

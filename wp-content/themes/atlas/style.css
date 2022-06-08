@@ -86,7 +86,12 @@ body {
 .eng {
     font-family: 'Open Sans', sans-serif;
 }
-
+.navbar{
+    width: 100%;
+}
+.navbar>.container-fluid{
+    width: 95%;
+}
 .navbar-light {
     background-color: #fff !important;
 }
@@ -302,7 +307,7 @@ body {
 .teacher-sec .header h3 {
     font-size: 40px;
     font-weight: bold;
-    color: #d66a2c;
+    color: #f46a21;
 }
 
 .teacher-sec .owl-carousel .item {
@@ -471,7 +476,7 @@ body {
     padding: 50px;
     background: #fff;
     border: 1px solid #666;
-    width: 400px;
+    max-width: 400px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     position: relative;
     top: 10%;
@@ -540,8 +545,7 @@ body {
     max-width: 300px;
 }
 
-.teacher h3,
-.teacher p {
+.teacher h3{
     font-weight: bold;
 }
 
@@ -572,6 +576,10 @@ body {
 .modal-content {
     padding: 50px;
 }
+.modal-content img{
+    width: 100%;
+    height: auto;
+}
 
 .modal-content h3 {
     margin-top: 10px;
@@ -590,10 +598,5 @@ body {
 @media screen and (min-width: 1200px) {
     .third-sec .content p {
         font-size: 25px;
-    }
-}
-@media screen and (min-width: 320px) and (max-width: 576px){
-    .third-sec .content p {
-        font-size: 20px;
     }
 }

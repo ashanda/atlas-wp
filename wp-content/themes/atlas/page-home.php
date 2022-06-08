@@ -124,7 +124,7 @@ get_header();  ?>
     <?php endwhile; ?>
 <?php endif; ?> -->
 
-
+    <!-- tempory teacher sec -->
     <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
         <div class="header text-center">
             <h3><?php the_field('section_04_title'); ?></h3>
@@ -134,12 +134,18 @@ get_header();  ?>
             <div class="row">
                 <div class="col-sm-6 col-xs-12">
                     <div class="teacher text-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher1.png" alt="">
-                        <h3>චාමින්ද සර්</h3>
-                        <p>වසර 25 ක් පුරා ශිෂ්‍යත්ව සමතුන්..</p>
-                        <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                            See More
-                        </button>
+                        <div class="row">
+                            <div class="col-sm-12 col-6">
+                                <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher1.png" alt="">
+                            </div>
+                            <div class="col-sm-12 col-6 sm-text-left">
+                                <h3>චාමින්ද සර්</h3>
+                                <p>වසර 25 ක් පුරා ශිෂ්‍යත්ව සමතුන්..</p>
+                                <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                    See More
+                                </button>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Modal -->
@@ -153,15 +159,23 @@ get_header();  ?>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-6 col-xs-12">
                     <div class="teacher text-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher2.png" alt="">
-                        <h3>නිලන්ති මිස්</h3>
-                        <p>ශ්‍රී ලංකාවේ ශිෂ්‍යත්ව විභාග කඩයිම...</p>
-                        <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                            See More
-                        </button>
+                        <div class="row">
+                            <div class="col-sm-12 col-6">
+                                <img src="<?php echo get_template_directory_uri(); ?>/includes/img/teacher2.png" alt="">
+                            </div>
+                            <div class="col-sm-12 col-6 sm-text-left">
+                                <h3>නිලන්ති මිස්</h3>
+                                <p>ශ්‍රී ලංකාවේ ශිෂ්‍යත්ව විභාග කඩයිම...</p>
+                                <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    See More
+                                </button>
+                            </div>
+                        </div>
+
+
                     </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -177,5 +191,6 @@ get_header();  ?>
             </div>
         </div>
     </div>
+    <!-- tempory teacher sec -->
 
     <?php get_footer(); ?>
