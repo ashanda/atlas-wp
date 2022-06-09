@@ -76,28 +76,36 @@
     }
 
     .third-sec .content h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    .third-sec .content p {
-        font-size: 15px;
+    .third-sec .left-sec .content p {
+        
         width: 60%;
     }
-
+   
+    .third-sec .content p {
+        font-size: 11px;
+    }
     .third-sec .right-sec {
         text-align: end;
         margin-left: 0;
-        margin-top: 0;
+        margin-top: 0 !important;
     }
 
-    .third-sec .right-sec,
+    /* .third-sec .right-sec,
     .third-sec .left-sec {
         display: none;
-    }
+    } */
 
     .third-sec .right-sec .content {
         margin: 10px;
-        margin-left: 50%;
+    }
+    .third-sec .right-sec .content h3{
+        margin-left: 55%;
+    }
+    .third-sec .right-sec .content p{
+        margin-left: 55%;
     }
 
     .cards .container {
