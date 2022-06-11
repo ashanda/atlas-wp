@@ -22,13 +22,13 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- owl carosel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
-   
+
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
@@ -67,7 +67,14 @@
                 <!-- <form class="d-flex">
                     <input class="form-control text-end" type="search" placeholder="සොයන්න" aria-label="Search">
                 </form> -->
+
             </div>
+            <div class="social">
+            <a class="s-fb" href="<?php the_field(''); ?>"><i class="fa fa-facebook"></i></a>
+            <a class="s-wp" href="<?php the_field(''); ?>"><i class="fa fa-whatsapp"></i></a>
         </div>
+        </div>
+        
     </nav>
+
     <!-- navbar end -->

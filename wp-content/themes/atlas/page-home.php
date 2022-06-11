@@ -14,7 +14,7 @@ get_header();  ?>
     </div>
     <div class="banner-caption">
         <div class="row">
-            <div class="col-sm-8 col-md-6">
+            <div class="col-xl-5 col-lg-6 col-sm-8">
                 <div class="left-sec">
                     <h2 class="sub-heading"><?php the_field('banner_title'); ?></h2>
                     <h1 class="heading eng"><?php the_field('banner_eng_title'); ?></h1>
@@ -22,7 +22,7 @@ get_header();  ?>
                     <a class="reg-btn" href="<?php the_field('register_url'); ?>">ලියාපදිංචි වන්න</a>
                 </div>
             </div>
-            <div class="col-sm-4 col-md-6">
+            <div class="col-xl-7 col-lg-6 col-sm-4">
                 <div class="right-sec">
                     <h3 class="caption"><?php the_field('banner_caption_01'); ?> </h3>
                     <h3 class="caption small-text"><?php the_field('banner_caption_02'); ?></h3>
@@ -32,10 +32,7 @@ get_header();  ?>
 
     </div>
     </div>
-    <div class="social">
-        <a class="s-fb" href="<?php the_field(''); ?>"><i class="fa fa-facebook"></i></a>
-        <a class="s-wp" href="<?php the_field(''); ?>"><i class="fa fa-whatsapp"></i></a>
-    </div>
+    
     <!-- banner end -->
     <!-- cards section start -->
     <div class="cards my-5" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/card-back.jpg');">
@@ -59,7 +56,7 @@ get_header();  ?>
             <h2 class="sub-heading"><?php the_field('section_03_sub_title'); ?></h2>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 col-xl-5">
 
                 <div class="left-sec">
                     <div class="content">
@@ -68,10 +65,10 @@ get_header();  ?>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2 col-md-4">
+            <div class="col-sm-2 col-md-4 col-xl-3">
 
             </div>
-            <div class="col-sm-4 col-md-4">
+            <div class="col-sm-4 col-md-4 col-xl-4">
                 <div class="right-sec">
                     <div class="content">
                         <h3> <i class="fa fa-book"></i><?php the_field('sub_title_right'); ?></h3>

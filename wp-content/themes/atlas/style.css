@@ -80,7 +80,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* navbar css */
 
 body {
-    font-family: 'Abhaya Libre', serif;
+    font-family: 'Noto Sans Sinhala', sans-serif;
 }
 
 .eng {
@@ -89,6 +89,7 @@ body {
 .navbar{
     width: 100%;
 }
+
 .navbar>.container-fluid{
     width: 95%;
 }
@@ -99,7 +100,7 @@ body {
 .navbar .navbar-brand img {
     width: 100%;
     height: auto;
-    max-width: 120px;
+    max-width: 190px;
 }
 
 .navbar .nav-item {
@@ -123,8 +124,8 @@ body {
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vw;
-    min-height: 600px;
+    height: 1080px;
+
 }
 
 .top-banner .sign-btns {
@@ -153,29 +154,35 @@ body {
     color: #f8d428;
     font-weight: bold;
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 .heading {
     color: #fff;
     text-transform: uppercase;
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 75px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    line-height: 1.05;
 }
 
 .top-banner .banner-caption .caption {
     color: #fff;
     font-weight: bold;
     font-size: 35px;
+    font-style: italic;
 }
 
 .top-banner .banner-caption .small-text {
     color: #fff;
     font-size: 30px;
+    font-style: italic;
 }
 
 .left-sec {
-    /* position: absolute; */
-    margin-left: 16%;
+   
+       margin-left: 100px;
+       margin-top: 100px;
 }
 
 .left-sec .content {
@@ -195,12 +202,12 @@ body {
 
 .left-sec .reg-btn {
     position: absolute;
-    margin-top: 6vw;
+    margin-top: 115px;
     background-color: #fff0;
     border: 1px solid #ffff;
-    border-radius: 20px;
-    padding: 5px 20px;
-    font-size: 20px;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 22px;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
@@ -208,30 +215,31 @@ body {
 
 .right-sec {
     /* position: absolute; */
-    margin-top: 18%;
+    margin-top: 250px;
+
 }
 
 
 /* social section start */
 
 .social {
-    right: 2px;
-    position: absolute;
-    margin-top: -30px;
+    position:inherit ;
 }
 
 .social .s-fb,
 .social .s-wp {
     color: #fff;
     border-radius: 50%;
-    width: 30px;
-    padding: 6px 10px;
-    height: 10px;
+    width: 40px;
+    padding: 10px 15px;
+    height: 40px;
     margin: 2px;
 }
 
 .social .s-fb {
     background-color: #4267B2;
+    padding: 10px 17px;
+
 }
 
 .social .s-wp {
@@ -257,7 +265,7 @@ body {
 .cards img {
     width: 100%;
     height: auto;
-    padding: 15%;
+    padding: 10%;
 }
 
 
@@ -285,8 +293,8 @@ body {
 }
 
 .third-heading {
-    margin-left: 5%;
-    padding-top: 5%;
+    margin-left: 110px;
+    padding-top: 85px;
 }
 
 

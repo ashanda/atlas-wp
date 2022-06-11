@@ -14,16 +14,16 @@
     }
 
     .top-banner .banner-caption .right-sec {
-        margin-top: 48%;
-        width: 100%;
+        margin-top: 16%;
         margin-right: auto;
-        text-align: end;
+        text-align: start;
         margin-left: 0;
+        float: right;
         padding-right: 20px;
     }
 
     .top-banner .banner-caption .caption {
-        font-size: 20px;
+        font-size: 13px !important;
         margin-bottom: 2px;
     }
 
@@ -37,11 +37,11 @@
     }
 
     .sub-heading {
-        font-size: 32px !important;
+        font-size: 20px !important;
     }
 
     .heading {
-        font-size: 40px;
+        font-size: 42px !important;
     }
 
     .left-sec .reg-btn {
@@ -55,12 +55,13 @@
     }
 
     .third-sec .third-heading {
-        padding-top: 10%;
+        padding-top: 5%;
         width: 75%;
+        margin-left: 20%;
     }
 
     .third-sec .heading {
-        font-size: 40px !important;
+        font-size: 30px !important;
     }
 
     .third-sec .left-sec {
@@ -80,13 +81,14 @@
     }
 
     .third-sec .left-sec .content p {
-        
+
         width: 60%;
     }
-   
+
     .third-sec .content p {
         font-size: 11px;
     }
+
     .third-sec .right-sec {
         text-align: end;
         margin-left: 0;
@@ -101,11 +103,15 @@
     .third-sec .right-sec .content {
         margin: 10px;
     }
-    .third-sec .right-sec .content h3{
+
+    .third-sec .right-sec .content h3 {
         margin-left: 55%;
+        text-align: left;
     }
-    .third-sec .right-sec .content p{
-        margin-left: 55%;
+
+    .third-sec .right-sec .content p {
+        margin-left: 60%;
+        text-align: left;
     }
 
     .cards .container {
@@ -128,7 +134,10 @@
     }
 
     .teacher h3 {
-        font-size: 25px !important;
+        font-size: 17px !important;
+    }
+    .teacher p{
+        font-size: 11px !important;
     }
 
     .teacher-sec .owl-carousel .item img {
@@ -136,7 +145,7 @@
     }
 
     .teacher-sec .header h3 {
-        font-size: 30px !important;
+        font-size: 23px !important;
 
     }
 
@@ -153,13 +162,26 @@
         font-size: 4vw;
     }
 
-    .banner-caption .right-sec {
+    /* .banner-caption .right-sec {
         display: none;
-    }
+    } */
 
     .bottom-section {
         min-height: 150px !important;
         padding-top: 5vw !important;
+    }
+    .footer-caption h4{
+        font-size: 23px !important;
+
+    }
+    .footer-caption .eng{
+        font-size: 23px !important;
+    }
+    .bottom-section .footer-caption{
+        padding-top: 5% !important;
+    }
+    .navbar .nav-item .nav-link{
+        font-size: 11px !important;
     }
 }
 
@@ -181,6 +203,6 @@
 
 @media only screen and (min-width: 576px) {
     .banner-caption .left-sec {
-        margin-top: 15%;
+        margin-top: 210px;
     }
 }
