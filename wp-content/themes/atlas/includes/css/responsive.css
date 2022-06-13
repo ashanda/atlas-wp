@@ -92,6 +92,7 @@
         text-align: end;
         margin-left: 0;
         margin-top: 0 !important;
+        margin-bottom: 10px !important;
     }
 
     /* .third-sec .right-sec,
@@ -104,7 +105,7 @@
     }
 
     .third-sec .right-sec .content h3 {
-        margin-left: 55%;
+        margin-left: 60%;
         text-align: left;
     }
 
