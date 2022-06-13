@@ -186,6 +186,12 @@
         text-align: center;
         margin: 10px;
     }
+    .navbar .navbar-brand img{
+        width: 80px !important;
+    }
+    .top-banner .banner-caption{
+        top: 60px !important;
+    }
 }
 
 @media only screen and (max-width: 576px) {
