@@ -214,8 +214,7 @@ body {
 }
 
 .right-sec {
-    /* position: absolute; */
-    margin-top: 250px;
+    margin-top: 180px;
 
 }
 
@@ -275,15 +274,15 @@ body {
 /* 3 sec start */
 
 .third-sec {
-    background-position: inherit;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 60vw;
-    min-height: 600px;
+    background-size: cover;
+    height: 100%;
 }
 
 .third-sec .right-sec {
     margin-top: 40% !important;
+    margin-bottom: 50px;
 }
 
 .third-sec .right-sec .content h3,

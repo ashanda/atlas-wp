@@ -67,14 +67,14 @@
                 <!-- <form class="d-flex">
                     <input class="form-control text-end" type="search" placeholder="සොයන්න" aria-label="Search">
                 </form> -->
-
+                <div class="social">
+                    <a class="s-fb" href="<?php the_field(''); ?>"><i class="fa fa-facebook"></i></a>
+                    <a class="s-wp" href="<?php the_field(''); ?>"><i class="fa fa-whatsapp"></i></a>
+                </div>
             </div>
-            <div class="social">
-            <a class="s-fb" href="<?php the_field(''); ?>"><i class="fa fa-facebook"></i></a>
-            <a class="s-wp" href="<?php the_field(''); ?>"><i class="fa fa-whatsapp"></i></a>
+
         </div>
-        </div>
-        
+
     </nav>
 
     <!-- navbar end -->
