@@ -21,9 +21,9 @@
                 <a class="terms" href="<?php echo get_home_url(); ?>/terms-conditions/">Terms & Conditions</a>
             </div>
             <div class="col-sm-6">
-                <p class="copyright">Copyright @ <script>
+                <p class="copyright">Copyright ©<script>
                         document.write(new Date().getFullYear())
-                    </script> Atlas by <a href="https://yogeemedia.com/">YogeeMedia</a></p>
+                    </script> Atlas Axillia Powered by <a href="https://yogeemedia.com/">YogeeMedia</a></p>
             </div>
         </div>
 
