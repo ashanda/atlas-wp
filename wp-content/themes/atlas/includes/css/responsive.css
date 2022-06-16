@@ -10,6 +10,7 @@
 
     .top-banner .banner-caption .left-sec .reg-btn {
         margin-top: 4vw;
+        font-size: 14px;
     }
 
     .top-banner .banner-caption .right-sec {
@@ -136,7 +137,8 @@
     .teacher h3 {
         font-size: 17px !important;
     }
-    .teacher p{
+
+    .teacher p {
         font-size: 11px !important;
     }
 
@@ -170,28 +172,38 @@
         min-height: 150px !important;
         padding-top: 5vw !important;
     }
-    .footer-caption h4{
+
+    .footer-caption h4 {
         font-size: 23px !important;
 
     }
-    .footer-caption .eng{
+
+    .footer-caption .eng {
         font-size: 23px !important;
     }
-    .bottom-section .footer-caption{
+
+    .bottom-section .footer-caption {
         padding-top: 5% !important;
     }
-    .navbar .nav-item .nav-link{
+
+    .navbar .nav-item .nav-link {
         font-size: 11px !important;
     }
-    .social{
+
+    .social {
         text-align: center;
         margin: 10px;
     }
-    .navbar .navbar-brand img{
+
+    .navbar .navbar-brand img {
         width: 80px !important;
     }
-    .top-banner .banner-caption{
+
+    .top-banner .banner-caption {
         top: 60px !important;
+    }
+    .teacher-sec .container {
+        padding-top: 12% !important;
     }
 }
 
@@ -217,8 +229,54 @@
         margin-left: 140px;
     }
 }
-@media only screen and (max-width: 1200px) and (min-width: 576px){
-    .banner-caption .left-sec {
-        margin-top: 210px;
+
+@media only screen and (max-width: 1400px) and (min-width: 576px) {
+    .sub-heading {
+        font-size: 30px !important;
+    }
+
+    .heading {
+        font-size: 60px !important;
+    }
+
+    .top-banner .banner-caption .caption {
+        font-size: 25px !important;
+    }
+
+    .top-banner .banner-caption .small-text {
+        font-size: 20px !important;
+    }
+
+    .content h3 {
+        font-size: 25px !important;
+    }
+
+    .content p {
+        font-size: 18px !important;
+    }
+
+    .left-sec {
+        margin-top: 100px !important;
+        margin-bottom: 50px !important;
+        margin-left: 120px !important;
+    }
+
+    .right-sec {
+        margin-top: 140px !important;
+    }
+
+    .top-banner {
+        height: 900px !important;
+    }
+
+    .teacher-sec .header h3 {
+        font-size: 30px !important;
+    }
+ 
+}
+
+@media only screen and (max-width: 380px) {
+    .teacher-sec {
+        background-position-y: 30px !important;
     }
 }
