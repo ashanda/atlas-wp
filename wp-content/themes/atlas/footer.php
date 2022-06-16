@@ -15,6 +15,18 @@
     <div class="footer-caption text-center">
         <h4>විමසීම්</h4>
         <h4 class="eng"><a target="_blank" href="#"><i class="fa fa-phone"></i></a> <a target="_blank" href="#"><i class="fa fa-whatsapp"></i></a> <a href="tel:<?php the_field('phone_number', 'option'); ?>"><?php the_field('phone_number', 'option'); ?></a></h4>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="terms" href="">Terms & Conditions</a>
+            </div>
+            <div class="col-sm-6">
+                <p class="copyright">Copyright @ <script>
+                        document.write(new Date().getFullYear())
+                    </script> Atlas by <a href="https://yogeemedia.com/">YogeeMedia</a></p>
+            </div>
+        </div>
+
     </div>
 
 </div>
