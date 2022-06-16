@@ -32,7 +32,7 @@ get_header();  ?>
 
     </div>
     </div>
-    
+
     <!-- banner end -->
     <!-- cards section start -->
     <div class="cards my-5" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/card-back.jpg');">
@@ -71,7 +71,7 @@ get_header();  ?>
             <div class="col-sm-4 col-md-4 col-xl-4">
                 <div class="right-sec">
                     <div class="content">
-                        <h3> <i class="fa fa-book"></i><?php the_field('sub_title_right'); ?></h3>
+                        <h3> <i class="fa fa-book"></i> <?php the_field('sub_title_right'); ?></h3>
                         <p><?php the_field('description_right'); ?></p>
                     </div>
 
@@ -79,6 +79,8 @@ get_header();  ?>
             </div>
         </div>
     </div>
+
+    <!-- carosel teacher sec -->
     <!-- <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
         <div class="header text-center">
             <h3><?php the_field('section_04_title'); ?></h3>
@@ -120,6 +122,8 @@ get_header();  ?>
         </div>
     <?php endwhile; ?>
 <?php endif; ?> -->
+    <!-- carosel teacher sec -->
+
 
     <!-- tempory teacher sec -->
     <div id="teacher-sec" class="teacher-sec" style="background-image: url('<?php echo get_template_directory_uri(); ?>/includes/img/teacher-sec.jpg');">
@@ -139,7 +143,7 @@ get_header();  ?>
                                 <h3>චාමින්ද සර්</h3>
                                 <p>වසර 25 ක් පුරා ශිෂ්‍යත්ව සමතුන්..</p>
                                 <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                    See More
+                                    Learn More
                                 </button>
                             </div>
                         </div>
@@ -167,7 +171,7 @@ get_header();  ?>
                                 <h3>නිලන්ති මිස්</h3>
                                 <p>ශ්‍රී ලංකාවේ ශිෂ්‍යත්ව විභාග කඩයිම...</p>
                                 <button type="button" class="btn btn-primary eng" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                    See More
+                                    Learn More
                                 </button>
                             </div>
                         </div>
