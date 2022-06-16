@@ -11,8 +11,12 @@ get_header();  ?>
     <?php while (have_rows('teachers_slider')) : the_row();
         $image = get_sub_field('timetable_image');
     ?>
-        <div class="item text-center">
-            <img src="<?php echo $image['url']; ?>" alt="">
+        <div class="container">
+            <div class="row table-section">
+                <div class="item text-center">
+                    <img src="<?php echo $image['url']; ?>" alt="">
+                </div>
+            </div>
         </div>
 
     <?php endwhile; ?>
