@@ -18,7 +18,7 @@
         <hr>
         <div class="row">
             <div class="col-sm-6">
-                <a class="terms" href="">Terms & Conditions</a>
+                <a class="terms" href="<?php echo get_home_url(); ?>/terms-conditions/">Terms & Conditions</a>
             </div>
             <div class="col-sm-6">
                 <p class="copyright">Copyright @ <script>
