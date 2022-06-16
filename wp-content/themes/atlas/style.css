@@ -409,7 +409,7 @@ body {
 }
 @media screen and (max-width: 576px) {
     .space {
-        height: 80px !important;
+        height: 100px !important;
     }
 }
 
