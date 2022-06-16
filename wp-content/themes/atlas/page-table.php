@@ -39,7 +39,7 @@ get_header();  ?>
         </div> -->
         <div class="row table-section">
             <div class="image text-center">
-                <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2022/06/Time-table-01.jpg" alt="">
+                <img src="http://stepup.lk/atlas-wp/wp-content/uploads/2022/06/Time-table-01.jpg" alt="">
             </div>
         </div>
     </div>
